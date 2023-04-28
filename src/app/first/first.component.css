@@ -1,0 +1,34 @@
+#container{
+    margin: 0px auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+button {
+    height: 200px;
+    padding: 10px 20px;
+}
+
+footer{
+    padding: 2px;
+    text-indent: 5px;
+    height: 40px;
+    background-color: cyan;
+}
+.spacing{
+    
+    margin-bottom: 10%;
+}
+
+.aliniazalogo{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.mat-raised-button{
+    height: 80%;
+}
+  
