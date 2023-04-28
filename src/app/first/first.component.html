@@ -30,11 +30,11 @@
 <br>
 
 <table>
-  <tr *ngFor="let question of questions">
-    <td class="spacing">{{question.Text}}</td>
-    <td class="spacing"><button (click)="setAnswer('b1',question.Answer)" mat-raised-button> {{question.b1}} </button></td>
-    <td class="spacing"><button (click)="setAnswer('b2',question.Answer)" mat-raised-button> {{question.b2}} </button></td>
-    <td class="spacing"><button (click)="setAnswer('b3',question.Answer)" mat-raised-button> {{question.b3}} </button></td>
+  <tr class="spacing" *ngFor="let question of questions">
+    <td >{{question.Text}}</td>
+    <td ><button (click)="setAnswer('b1',question.Answer)" mat-raised-button> {{question.b1}} </button></td>
+    <td ><button (click)="setAnswer('b2',question.Answer)" mat-raised-button> {{question.b2}} </button></td>
+    <td ><button (click)="setAnswer('b3',question.Answer)" mat-raised-button> {{question.b3}} </button></td>
   </tr>
 </table>
 
